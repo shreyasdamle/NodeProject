@@ -6,8 +6,8 @@ var port = process.env.PORT || 8080;
 
 app.get('/credentials', function(req, res) {
 	var credentials = {
-		'awsAccessKeyId' : '123456789',
-		'awsSecretKey' : 'dbsjdb123456789sbdae834884885'
+		'awsAccessKeyId' : 'access key',
+		'awsSecretKey' : 'secret key'
 	};
 	res.json(credentials);
 	res.end();
